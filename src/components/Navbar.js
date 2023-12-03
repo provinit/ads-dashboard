@@ -8,7 +8,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <nav className="p-4">
+    <nav className="p-4 bg-white mb-[30px] border-b">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-xl lg:text-2xl font-bold">
           APP LOGO
